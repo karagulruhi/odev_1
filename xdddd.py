@@ -64,3 +64,22 @@ from film
 where title like 'C%' and length>90 and rental_rate = 2.99
 
 
+#ödev4
+soru 1
+select distinct replacement_cost  from film
+
+soru 2
+select count (distinct replacement_cost)  from film
+
+soru 3
+select  COUNT(distinct title) from film
+where title ILIKE 'T%'
+and rating='G'
+
+soru 4
+select count (distinct(country)) from country
+where country like '_____'
+
+soru 5
+select count (distinct(city)) from city
+where city like 'R%r'
